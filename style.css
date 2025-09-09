@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.zokir  {
+    display: flex;
+    gap: 5px 40px;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.zor  {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+body {
+    background-color: black;
+}
+
+@media (max-width:1200px) {
+    body {
+        background-color: yellow;
+    }
+
+    .zor  {
+        width: 340px;
+        height: 200px;
+        background-color: blue;
+    }
+
+    .zokir  {
+        flex-wrap: wrap;
+    }
+
+}
+@media (max-width:1180px) {
+    body {
+        background-color:red;
+    }
+
+    .zor  {
+        width: 300px;
+        height: 200px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .zokir  {
+        flex-wrap: wrap;
+        gap: 5px 70px;
+    }
+
+}
+
+@media (max-width:900px) {
+    body {
+        background-color: yellow;
+    }
+
+    .zor  {
+        width: 230px;
+        height: 200px;
+        background-color: blue;
+    }
+
+    .zokir  {
+        flex-wrap: wrap;
+    }
+
+}
+@media (max-width:700px) {
+    body {
+        background-color: blueviolet;
+    }
+
+    .zor {
+        width: 230px;
+        height: 200px;
+        background-color: coral;
+    }
+
+    .zokir  {
+        flex-wrap: wrap;
+        gap: 5px 5px    ;
+    }
+
+}
